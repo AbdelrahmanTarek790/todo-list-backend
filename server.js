@@ -13,7 +13,6 @@ dotenv.config({ path: "./config.env" })
 const app = require("./app")
 
 const uri2 = `${process.env.DB_URI}`
-const atlas = "mongodb+srv://abdelrahmantarek790:jPPnQx68SfmbkEzShjEakjqpLZJ9rtq5WJdsD5rw3bDfzCygLJUtUqpQrV6zfCP5@pharmacy.8lnjuam.mongodb.net/db"
 mongoose
     .connect(uri2, {
         dbName: `tododb`,
